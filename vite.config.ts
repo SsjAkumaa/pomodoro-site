@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  root: '.',          // La racine du projet où se trouve index.html
+  root: '.',       // dossier où se trouve index.html
   build: {
-    outDir: 'dist',   // dossier final pour Netlify
-  },
+    outDir: 'dist', // le dossier final pour Netlify
+  }
 })
